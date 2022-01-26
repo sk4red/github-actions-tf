@@ -2,8 +2,8 @@ terraform {
   backend "azurerm" {
     resource_group_name  = "dowdtfstates"
     storage_account_name = "dowdtf2"
-    container_name       = "terraformgithubexample"
-    key                  = "terraformgithubexample.tfstate"
+    container_name       = "tfstatedowd"
+    key                  = "terraform.tfstate"
   }
 }
 
